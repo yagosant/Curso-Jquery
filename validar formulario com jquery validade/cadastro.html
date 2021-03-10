@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+    <title>Login - Aula 12</title>
+</head>
+<body class="text-center"> 
+
+    <main class="form-signin">
+        <form action="login.php" method="post" id="form-cadastro">
+            <img class="mb-4" src="img/baseline_assignment_ind_black_18dp.png" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Cadastro</h1>
+
+                <label for="inputName" class="visually-hidden">Nome de Usuário</label>
+                <input type="text" id="inputName" name="nome" class="form-control" placeholder="Nome" >
+                
+                <label for="inputEmail" class="visually-hidden">informe seu Email</label>
+                <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email" >
+
+                <label for="inputPassword" class="visually-hidden">Senha</label>
+                <input type="senha" id="inputPassword" name="senha" class="form-control" placeholder="Senha" >
+
+                <label for="inputPassword" class="visually-hidden">Confirme sua Senha</label>
+                <input type="senha" id="inputPasswordAgain" name="confirmarSenha" class="form-control" placeholder="Confirmar Senha" >
+
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Cadastrar</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+                    <div class="form-group">
+                        Já possui o acesso? <a href="index.html">Clique para entrar</a>.
+                    </div>
+         </form>
+
+    </main>
+    
+
+    
+    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
